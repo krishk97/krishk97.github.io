@@ -1,22 +1,29 @@
 ---
 layout: archive
 title: "Curriculum Vitae"
-permalink: /cv/
+permalink: '/files/krish-kabra-cv.pdf'
 author_profile: true
 redirect_from:
   - /resume
+  - /cv
 ---
 
-{% include base_path %}
+<!-- {% include base_path %}
 
-Download a copy of my [CV here](https://drive.google.com/file/d/1rKqNxxojdiHVJ_tnLobpGojJbWroUdi7/view?usp=sharing)
+Download a copy of my [CV](/files/krish-kabra-cv.pdf) -->
 
-## Education
+<!-- ## Education
 -----------------------
+**Doctor of Philosophy, Electrical and Computer Engineering**, *Rice University* <br>
+Expected May 2026
+* GPA: 4.00/4.00
+* Advisor: Prof. Guha Balakrishnan
+
 **Master of Science, Electrical and Computer Engineering**, *UCLA* <br>
-Expected 2021 
+June 2021 
 * GPA: 4.00/4.00
 * Advisor: Prof. Achuta Kadambi
+* Thesis: Diverse R-PPG: Contactless Smartphone Camera-based Heart Rate Estimation for Diverse Skin Tones and Scenes
 
 **Bachelor of Science, Physics**, *UCLA* <br>
 June 2019
@@ -41,12 +48,6 @@ May 2017 - March 2020
 ## Publications
 -----------------------
   <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-    
-## Projects
------------------------
-  <ul>{% for post in site.projects reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
@@ -79,4 +80,4 @@ January 2017 - June 2019
 * Founded the social gaming club "FIFA Club at UCLA", designed to bring students together to play the popular soccer video game series FIFA 
 * Manage team of 4 officers to organize club budget, advertising, equipment transportation and general logistics
 * Host weekly meetings that allow students to connect socially and play FIFA, averaging about 15-20 students each week  
-* Organized quarterly tournaments that entertain approximately 20-25 participants, with our largest tournament entertaining 47 participants
+* Organized quarterly tournaments that entertain approximately 20-25 participants, with our largest tournament entertaining 47 participants -->

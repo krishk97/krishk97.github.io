@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Krish Kabra"
 title_separator          : "-"
 name                     : &name "Krish Kabra"
-description              : &description "M.S. in Electrical & Computer Engineering, UCLA, Expected 2021; B.S in Physics, UCLA, 2019; Ethnically Indian, born & raised in Kuwait"
+description              : &description "PhD student at Rice University; M.S in ECE, UCLA, 2021; B.S in Physics, UCLA, 2019; Ethnically Indian, born & raised in Kuwait"
 url                      : https://krishk97.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "krishk97/krishk97.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Krish Kabra"
   avatar           : "profile.jpg"
-  bio              : "M.S. in Electrical & Computer Engineering, UCLA, Expected 2021; B.S in Physics, UCLA, 2019; Ethnically Indian, born & raised in Kuwait"
-  location         : "Los Angeles, California"
+  bio              : "PhD student at Rice University; M.S in ECE, UCLA, 2021; B.S in Physics, UCLA, 2019; Ethnically Indian, born & raised in Kuwait"
+  location         : "Houston, Texas"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=t0t59YwAAAAJ&hl=en"
@@ -175,15 +175,15 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
+  # teaching:
+  #   output: true
+  #   permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  projects:
-    output: true
-    permalink: /:collection/:path/
+  # projects:
+  #   output: true
+  #   permalink: /:collection/:path/
 #  talks:
 #    output: true
 #    permalink: /:collection/:path/
@@ -209,15 +209,15 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+  # # _teaching
+  # - scope:
+  #     path: ""
+  #     type: teaching
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comments: true
   # _publications
   - scope:
       path: ""
@@ -227,16 +227,16 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _projects
-  - scope:
-      path: ""
-      type: projects
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
+  # # _projects
+  # - scope:
+  #     path: ""
+  #     type: projects
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comment: true
+  # # _talks
   # - scope:
   #    path: ""
   #    type: talks
