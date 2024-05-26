@@ -5,7 +5,9 @@ permalink: '/files/krish-kabra-cv.pdf'
 author_profile: true
 redirect_from:
   - /resume
+  - /resume/
   - /cv
+  - /cv/
 ---
 
 <!-- {% include base_path %}
